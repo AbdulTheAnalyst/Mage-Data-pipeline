@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "avian-destiny-412510",
+  "private_key_id": "e025507f677b130cb2e24f41acd12968dc219ae6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDSD1ANUteD0voh\nyVwqq5sev0MupwxGEIkrSi9neQ2RbpsRfNqGrA6EWElrLFNlWNhFq8U3b4gGaSy9\nbjJe1op+weNN3ZHN3hgB/pt0iSiZke+KQNoF7rEJhsjv2sbVjkOjqEqbxcrgrbWL\nOlKC/E8s+A3Z786ZA3z8pS6s53bpZBdsfX7f8r8akX7G8hJOjRxXCc4doPe/Xyfa\nwhRwTFywdogFVuxDiN7q3yR1OhFirJR2jhdwoGCDdYYaTtGeSvgVjyxmatLfa7Ms\nCdivtoSuriZeNJM8i6yxS4TdKGQGaeIEdICp7MK7P5+Xf5F0lv8K9FWv5+oJvvHq\nArl2cNWpAgMBAAECggEAGjPcyXyu83uqxfInNA9p7yDukXA3ALppUeQUG7Um8yA3\n6auIWso1mV6l8d96m6bEe5RcqniYICyYbxzC3b+nUP6AiyL7YBG3LvCClbvSO63P\nkpBaYekPXl/YysqgiN0RJOYGQH4gu3wPrElfJ4Wvnq1mlOvr+nxL5/v24YyR8bTX\niNcekj9CtEBbA1e8RzJsoieIskTVzFEN4dEjsdxjbSc9lrVDoowegWTOJSxIe5Qg\n2C1fXpUDvbfVy5T4uSlrev8YHTrS7aAzdF5D45Pxheaig+DrbtlnVNly2Vrrg8XA\nwsSFMhLt7v4A5PQ7Gt/wTykZFdWkeMwQQLLm5QGxvQKBgQD7TDiRHE2asZwnHwwI\nBqU2tCLtAwzyePC0307+iDpUUPu2qbJixdK374n/Y8o4ueSfSlgZ3xuw6qEKBLrm\nX1kCnCH0LaRoJOC+UpvwaUv6Rct9FJLZ4woy4dzUOkQ5fYmtFZ023nJNCuHI1Zgz\noCElHHvG2pAEU8p08pQ8M+/PawKBgQDV/Y1A5OAkJLidR0y73spvV21xyQRwdij8\nfYgE7w0TcQbNyihsz/vTkuswd6q6sffzSMNsVLlQ+LLOFc3nm/I4ebDDOAaDhB0B\ny8DiTH8ch8HMgDtAaxwihwn9jVKOOEtBiV8iQbhGd+hZP5EfioY5KEQA8oGRZaWK\noJceGK4YOwKBgQC88Ssa19f1dpL8yxgltLFltv0HjSKf8JSyua/QKqcInDcVuPOZ\n1jk/+MeeEO6LxiECL0iccyaD13WrbbEE4y2ui6vvxp11fDzKfJwon1Lz4qRD8EMV\nteIGLdH2c7S2MRBh5f1lsszn5kWq1gXw0vX4zDi4Y76isklnsrgHp9kn7wKBgHH/\nVh2pECMREOxwjFdVM6CnAZ3pSZ0jxWfk8+4071FZGBfPR0PYdL5ceUBjr6cvofiP\n3dO7OtIA+zhAc2WcNSiS43DMSuQLIGzRf9rOh7TKOZrZATerF9zo9ZCGleE/6g9q\nwCx+uE2KGVRaQdR8tk6Cvd+HUTEE5nB4ZqjY2v37AoGAS7CS5h5i695hL+prXjpz\npLbFMDrwz/UjcelYG0TOG/on8XZoo9GSj3EzREFiBvHabnTUX6ubFBDu+ryd08t6\n6Sg9/1H6zf/WFv3py0dBPoGN7qcH5Mpo/CyF5LEwPy6OPlG0mRRSVxEP/RgZ/fa6\nVepO5mL47ci50iEPkQtweeU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mage-zoomcamp@avian-destiny-412510.iam.gserviceaccount.com",
+  "client_id": "114676098546340266203",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mage-zoomcamp%40avian-destiny-412510.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
