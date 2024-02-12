@@ -1,0 +1,45 @@
+
+
+CREATE OR REPLACE EXTERNAL TABLE `avian-destiny-412510.ny_taxi.taxi_green_data`
+OPTIONS (
+  format = 'PARQUET',
+  # Replace with compression type if applicable
+  uris = ['gs://mage-zoomcamp-matt-3/nyc_green_taxi_data.parquet']
+);
+
+-- Check yello trip data
+SELECT * FROM avian-destiny-412510.ny_taxi.taxi_green_data limit 10;
+
+SELECT COUNT(DISTINCT PULocationID) AS distinct_PULocationIDs
+FROM avian-destiny-412510.ny_taxi.taxi_green_data;
+
+SELECT COUNT(DISTINCT PULocationID) AS distinct_PULocationIDs
+FROM `avian-destiny-412510.ny_taxi.green_cab_taxi_1`;
+
+SELECT COUNT(*)
+FROM avian-destiny-412510.ny_taxi.taxi_green_data
+WHERE fare_amount = 0;
+
+-- Creating a partition and cluster table
+CREATE OR REPLACE TABLE avian-destiny-412510.ny_taxi.green_tripdata_partitoned_clustered
+PARTITION BY DATE(lpep_pickup_datetime)
+CLUSTER BY PUlocationID AS
+SELECT * FROM avian-destiny-412510.ny_taxi.taxi_green_data;
+
+-- Create a partitioned table from external table
+CREATE OR REPLACE TABLE avian-destiny-412510.ny_taxi.green_tripdata_partitoned
+PARTITION BY
+  DATE(lpep_pickup_datetime) AS
+SELECT * FROM avian-destiny-412510.ny_taxi.taxi_green_data;
+
+-- Using the partitioned table
+SELECT DISTINCT(PULocationID)
+FROM avian-destiny-412510.ny_taxi.green_tripdata_partitoned
+WHERE lpep_pickup_datetime BETWEEN '2022-06-01' AND '2022-06-30';
+
+-- Using the materialized table
+SELECT DISTINCT(PULocationID)
+FROM avian-destiny-412510.ny_taxi.green_cab_taxi_1
+WHERE lpep_pickup_datetime BETWEEN '2022-06-01' AND '2022-06-30';
+
+Drop table avian-destiny-412510.ny_taxi.green_tripdata_partitoned_clustered;
